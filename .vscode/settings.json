@@ -1,0 +1,6 @@
+{
+    "djangointellisense.projectRoot": "../",
+    "djangointellisense.settingsModule": "../core.settings",
+    "editor.formatOnSave": false,
+    "djangointellisense.debugMessages": true
+}
