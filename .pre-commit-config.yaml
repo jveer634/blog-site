@@ -3,7 +3,5 @@ repos:
     rev: '3.0.5'  
     hooks:
       - id: djhtml
-        entry: djhtml --tabwidth 4
-        exclude: .*/venv/.*
       - id: djcss
       - id: djjs
