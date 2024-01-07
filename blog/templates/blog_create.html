@@ -2,17 +2,17 @@
 
 {% block title %}
     New Blog
-{% endblock %}  
+{% endblock %}
 
 {% block content %}
 
-<h1>Create your form</h1>
-   <form method="post">
+    <h1>Create your form</h1>
+    <form method="post">
 
-    {% csrf_token %}
+        {% csrf_token %}
 
-    {{form.as_table}}
+        {{form.as_table}}
 
-<button type="submit"> Submit</button>
-   </form>
+        <button type="submit"> Submit</button>
+    </form>
 {% endblock %}

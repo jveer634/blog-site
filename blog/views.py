@@ -26,3 +26,7 @@ class BlogCreate(generic.CreateView):
     template_name="blog_create.html"
 
 
+class BlogUpdate(generic.UpdateView):
+    model= Blog
+    form_class = BlogForm
+    template_name="blog_update.html"
