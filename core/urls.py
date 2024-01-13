@@ -20,7 +20,10 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("blog/", include("blog.urls", namespace="blog"))
+    path("blog/", include("blog.urls", namespace="blog")),
+
+    path("__reload__/", include("django_browser_reload.urls")),
+
 ]
 
 
